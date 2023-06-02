@@ -1,0 +1,411 @@
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: indigo;
+}
+
+.nav1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: larger;
+}
+
+.nav1 a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav1 a:hover {
+    background-color:rgb(8, 132, 198);
+}
+
+body{
+    background:indigo;
+    color: whitesmoke;
+}
+
+header{
+    border-style: dotted;
+    border-color: indigo;
+    background-color:rgb(8, 132, 198);
+    border-width: 100%;
+    margin-top: 3rem;
+}
+
+header #name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    font-size: xx-large;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: whitesmoke;
+}
+
+header #quote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 35%;
+    margin-right: 30%;
+    padding-top: 0 ;
+    color: whitesmoke;
+}
+
+.content{
+    font-family: cursive;
+    background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: indigo;
+}
+
+#aboutmetitle {
+    color: rgb(8, 132, 198);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 25%;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+img {
+    border-left: 3em;
+    border-top: 3em;
+    border-bottom: 3em;
+    border-right: 3em;
+    border-style: double;
+    border-color: indigo;
+    width: 77%;
+    height: 420%;
+}
+
+.grid-container {
+    display: grid;
+    color: whitesmoke;
+    grid-template-columns: 500px 1000px;
+    grid-template-rows: 100px 300px;
+    gap: 100px 50px;
+    margin-left: 4em;
+}
+
+.grid-item-2 p {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-indent: 4em;
+    text-align: center;
+    background-color: indigo;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    font-size: large;
+}
+
+.box {
+    width: 1170px;
+    height: 500px;
+    border-style: dotted;
+    border-color: rgb(8, 132, 198);
+    font-size: x-large;
+    background-color: indigo;
+}
+
+.skillset1 {
+    margin-left: 2em;
+    margin-top: 10em;
+}
+    
+
+
+#skilltitle {
+    color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 6.5%;
+    font-size: x-large;
+    margin-top: 2em ;
+    text-decoration: underline;
+}
+
+.list1 {
+    font-size: x-large;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-evenly ;
+    margin-right: 10%;
+    margin-left: 0%;
+    padding-left: 0em;
+}
+
+#pb1{
+    border-style: solid;
+    border-color: indigo ;
+    padding: 2em;
+    background-color: rgb(39, 185, 221);
+}
+
+#tb1{
+    border-style: solid;
+    border-color: indigo ;
+    padding: 2em;
+    background-color: rgb(39, 185, 221);
+}
+
+#cb1 {
+    border-style: solid;
+    border-color: indigo ;
+    padding: 2em;
+    background-color: rgb(39, 185, 221);
+}
+
+#lb1 {
+    border-style: solid;
+    border-color: indigo ;
+    padding: 2em;
+    background-color: rgb(39, 185, 221);
+}
+
+.languages1 {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+#languagetitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 3em;
+    text-decoration: underline;
+    color: rgb(8, 132, 198);
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    row-gap: 1em; 
+    column-gap: 3em;
+    margin-left: 5em;
+}
+
+.html {
+    border-style: double;
+    border-left: 2em;
+    border-top: 2em;
+    border-right: 2em;
+    border-color: rgb(8, 132, 198);
+    padding: 2px 2px 2px 2px;
+    font-size: x-large;
+    text-align: center;
+    color: darkgrey;
+}
+
+.css {
+    border-style: double;
+    border-left: 2em;
+    border-top: 2em;
+    border-right: 2em;
+    border-color:rgb(8, 132, 198);
+    padding: 2px 2px 2px 2px;
+    font-size: x-large;
+    text-align: center;
+    color: darkgray;
+}
+
+.grid  {
+    border-style: double;
+    border-left: 2em;
+    border-top: 2em;
+    border-right: 2em;
+    border-color: rgb(8, 132, 198);
+    padding: 2px 2px 2px 2px;
+    font-size: x-large;
+    text-align: center;
+    color: darkgrey;
+}
+
+.flexbox {
+    border-style: double;
+    border-left: 2em;
+    border-top: 2em;
+    border-right: 2em;
+    border-color:  rgb(8, 132, 198);
+    padding: 2px 2px 2px 2px;
+    font-size: x-large;
+    text-align: center;
+    color: darkgrey;
+}
+
+.b1 {
+    border-style: double;
+    border-color:  rgb(8, 132, 198);
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+.b2 {
+    border-style: double;
+    border-color:  rgb(8, 132, 198);
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+.b3 {
+    border-style: double;
+    border-color:  rgb(8, 132, 198);
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+.b4 {
+    border-style: double;
+    border-color:  rgb(8, 132, 198);
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+#network {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: auto;
+    border-style:solid;
+    border-color:  indigo;
+    background-color: rgb(39, 185, 221);
+    background-image: url(./images/flower2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+#neth2 {
+    color: rgb(122, 36, 184);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: underline;
+
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: none;
+    margin-left: 40% ;
+    margin-right: 40%;
+    padding: 1em;
+    font-size: larger;
+    text-align: center;
+    column-gap: 2em;
+}
+
+#fp-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: larger;
+    color: rgb(122, 36, 184);
+}
+
+#grid-container-3 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-bottom: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1em;
+    border-bottom: 1em;
+    border-left: 1em;
+    border-right: 1em; 
+    border-style: double;
+    background-color: whitesmoke;
+    border-color: indigo ;
+    color: rgb(8, 132, 198);
+    font-size: larger;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#contact {
+    color: rgb(8, 132, 198);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 2em ;
+    margin-left: 3em;
+    text-decoration: underline;
+}
+
+#email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10em;
+    color:  rgb(122, 36, 184);
+    font-size: larger;
+}
+
+
+#top {
+    margin-left: 86%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: larger;
+    text-align: center;
+    border-style: double;
+    border-bottom: none;
+}
+
+footer {
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+    font-size: x-large;
+    background-color: indigo;
+    width: 100%;
+}
